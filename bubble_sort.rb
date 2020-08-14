@@ -30,4 +30,4 @@ def bub_sort_by(array)
        break if  swapped == false 
     end
 end
-bub_sort_by(["hey", "hi", "hello"]){|left, right| left.length - right.length}
+bub_sort_by(["hey", "hi", "hello"]){|left, right| left.length - right.length} 
