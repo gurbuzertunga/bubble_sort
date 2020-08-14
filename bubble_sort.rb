@@ -1,4 +1,4 @@
-def bubble_sort(array = [11, 2, 1, 23, 10, 8 , 3])
+def bub_sort(array)
     n = array.length
     puts n
     loop do  
@@ -13,4 +13,4 @@ def bubble_sort(array = [11, 2, 1, 23, 10, 8 , 3])
        break if  swapped == false 
     end
 end
-bubble_sort
+bub_sort([11,2,1,23,10, 8 , 3])
