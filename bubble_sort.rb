@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 def bub_sort(array)
   loop do
     swapped = false
