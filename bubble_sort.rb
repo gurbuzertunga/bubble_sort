@@ -12,7 +12,7 @@ def bub_sort(array)
   array
 end
 
-p bub_sort([11, 2, 1, 23, 10, 8, 3])
+bub_sort([11, 2, 1, 23, 10, 8, 3])
 
 def bub_sort_by(array)
   n = array.length
@@ -28,4 +28,4 @@ def bub_sort_by(array)
   end
   array
 end
-p bub_sort_by(%w[hey hi hello]) { |left, right| left.length - right.length }
+bub_sort_by(%w[hey hi hello]) { |left, right| left.length - right.length }
