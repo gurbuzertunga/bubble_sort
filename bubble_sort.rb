@@ -8,11 +8,12 @@ def bub_sort(array)
                 swapped = true
             end
         end
-        print array
        break if  swapped == false 
     end
+    return array
 end
-bub_sort([11 ,2 ,1 ,23 ,10 , 8, 3])
+
+p bub_sort([11 ,2 ,1 ,23 ,10 , 8, 3])
 ##############################
 ##############################
 ##############################
@@ -26,8 +27,8 @@ def bub_sort_by(array)
                 swapped = true
             end
         end
-        print array
        break if  swapped == false 
     end
+    return array
 end
-bub_sort_by(["hey", "hi", "hello"]){|left, right| left.length - right.length} 
+p bub_sort_by(["hey", "hi", "hello"]){|left, right| left.length - right.length} 
