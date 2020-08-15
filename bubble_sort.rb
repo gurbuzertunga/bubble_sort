@@ -13,9 +13,7 @@ def bub_sort(array)
 end
 
 p bub_sort([11, 2, 1, 23, 10, 8, 3])
-##############################
-##############################
-##############################
+
 def bub_sort_by(array)
   n = array.length
   loop do
